@@ -4,6 +4,8 @@
 
 cordova plugin add fingerprint-plugin
 
+<!--注：该插件需要配合ultralow-plugin或ordinart-plugin使用，先添加ultralow-plugin或ordinart-plugin再添加该插件-->
+
 **使用**
 
 ###### 1.打开指纹
