@@ -4,7 +4,7 @@
 
 cordova plugin add fingerprint-plugin
 
-<!--注：该插件需要配合ultralow-plugin或ordinart-plugin使用，先添加ultralow-plugin或ordinart-plugin再添加该插件-->
+*注：该插件需要配合ultralow-plugin或ordinart-plugin使用，先添加ultralow-plugin或ordinart-plugin再添加该插件*
 
 **使用**
 
@@ -12,9 +12,9 @@ cordova plugin add fingerprint-plugin
 
 `fingerprintPlugin.openFingerprint(param, successCallback, errorCallback);`
 
-<!--param[0]	--	路径(string)-->
+*param[0]	--	路径(string)*
 
-<!--param[1]	--	波特率(int)-->
+*param[1]	--	波特率(int)*
 
 ###### 2.关闭指纹
 
@@ -36,33 +36,33 @@ cordova plugin add fingerprint-plugin
 
 `fingerprintPlugin.registerFinger(param, successCallback, errorCallback);`
 
-<!--param[0]	--	第n次(int 注册指纹需要执行三次)-->
+*param[0]	--	第n次(int 注册指纹需要执行三次)*
 
-<!--param[1]	--	起始ID(int)-->
+*param[1]	--	起始ID(int)*
 
-<!--param[2]	--	结束ID(int)-->
+*param[2]	--	结束ID(int)*
 
-<!--注：先查询手指状态 存在手指再执行注册-->
+*注：先查询手指状态 存在手指再执行注册*
 
 ###### 7.匹配指纹
 
 `fingerprintPlugin.matchFinger(param, successCallback, errorCallback);`
 
-<!--param[0]	--	起始ID(int)-->
+*param[0]	--	起始ID(int)*
 
-<!--param[1]	--	结束ID(int)-->
+*param[1]	--	结束ID(int)*
 
-<!--注：先查询手指状态 存在手指再执行匹配-->
+*注：先查询手指状态 存在手指再执行匹配*
 
 ###### 8.删除指纹
 
 `fingerprintPlugin.deleteFinger(param, successCallback, errorCallback);`
 
-<!--param[0]	--	起始ID(int)-->
+*param[0]	--	起始ID(int)*
 
-<!--param[1]	--	结束ID(int)-->
+*param[1]	--	结束ID(int)*
 
-<!--注：当起始ID和结束ID相等时，则表示删除指定的ID号-->
+*注：当起始ID和结束ID相等时，则表示删除指定的ID号*
 
 **示例**
 
