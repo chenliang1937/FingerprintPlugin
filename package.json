@@ -1,0 +1,28 @@
+{
+  "name": "fingerprint-plugin",
+  "version": "1.0.0",
+  "description": "a fingerprint plugin for ifreezer",
+  "cordova": {
+    "id": "fingerprint-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenliang1937/FingerprintPlugin.git"
+  },
+  "keywords": [
+    "fingerprint"
+  ],
+  "author": "chenliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenliang1937/FingerprintPlugin/issues"
+  },
+  "homepage": "https://github.com/chenliang1937/FingerprintPlugin#readme"
+}
