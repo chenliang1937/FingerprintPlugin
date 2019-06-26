@@ -1,6 +1,6 @@
 {
   "name": "fingerprint-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a fingerprint plugin for ifreezer",
   "cordova": {
     "id": "fingerprint-plugin",

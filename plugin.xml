@@ -14,12 +14,6 @@
     	
     	<source-file src="src/android/fingerprint/FingerprintPlugin.java" target-dir="src/com/zkmeiling/serialport/fingerprint"/>
     	
-    	<!-- <source-file src="src/android/android_serialport_api/SerialPort.java" target-dir="src/android_serialport_api"/> -->
-    	<!-- <source-file src="src/android/android_serialport_api/SerialPortFinder.java" target-dir="src/android_serialport_api"/> -->
-    	
     	<source-file src="src/android/model/FingerReceived.java" target-dir="src/com/zkmeiling/serialport/model"/>
-    	
-    	<!-- <source-file src="src/jniLibs/armeabi-v7a/libserial_port.so" target-dir="libs/armeabi-v7a"/> -->
-		<!-- <source-file src="src/gson.jar" target-dir="libs"/> -->
     </platform>
 </plugin>
